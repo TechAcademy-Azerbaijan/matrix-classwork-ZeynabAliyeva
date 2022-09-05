@@ -12,4 +12,5 @@ let matrix_2 = [
     [1, 0, 1]
 ]; 
 
-// Write code here. 
+let sum = matrix_1[0][0]+matrix_1[0][2]+matrix_1[1][1]+matrix_1[2][0]+matrix_1[2][2];
+console.log(sum);
